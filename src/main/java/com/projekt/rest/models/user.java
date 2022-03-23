@@ -1,5 +1,7 @@
 package com.projekt.rest.models;
 
+import javax.persistence.*;
+
 @Entity
 public class user {
     @Id
@@ -12,14 +14,14 @@ public class user {
     private int rocznik;
 
     public long getId() {
-        return id;
+        return Id;
     }
 
     public void setId(long id) {
-        this.id = id;
+        this.Id = Id;
     }
 
-    public String getMarka) {
+    public String getMarka() {
         return Marka;
     }
 
@@ -36,11 +38,11 @@ public class user {
     }
 
     public int getRocznik() {
-        return Rocznik;
+        return rocznik;
     }
 
     public void setRocznik(int Rocznik) {
-        this.Rocznik = Rocznik;
+        this.rocznik = Rocznik;
     }
 
 }
