@@ -1,7 +1,7 @@
 package com.projekt.rest.repository;
 
-import com.projekt.rest.models.user;
+import com.projekt.rest.models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface UserRepo extends JpaRepository<user, Long> {
+public interface UserRepo extends JpaRepository<User, Long> {
 }
